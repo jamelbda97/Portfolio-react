@@ -1,15 +1,15 @@
 import React from "react";
 
-import './i18n';
 import 'bootstrap/dist/css/bootstrap.min.css';
+import './App.css';
+import './i18n';
 
 import About from "./components/About";
-import Contact from "./components/Contact";
 import Navbar from "./components/Navbar";
 import Projects from "./components/Projects";
 import Skills from "./components/Skills";
-
-import './App.css';
+import Education from "./components/Education";
+import Contact from "./components/Contact";
 
 export default function App() {
     return (
@@ -18,6 +18,7 @@ export default function App() {
             <About/>
             <Projects/>
             <Skills/>
+            <Education/>
             <Contact/>
         </main>
     );

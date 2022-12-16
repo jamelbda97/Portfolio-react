@@ -1,0 +1,41 @@
+.custom-bg{
+    background: rgba(0, 0, 0, 0.70);
+}
+
+.start-no-anim {
+    height: 60%;
+}
+
+.stop-no-anim {
+    height: 6rem;
+}
+
+.start-anim {
+    height: 15rem;
+    animation-name: fade-out-sec;
+    animation-duration: 500ms;
+}
+
+.stop-anim {
+    height: 6rem;
+    animation-name: fade-in-sec;
+    animation-duration: 500ms;
+}
+
+@keyframes fade-in-sec {
+    0% {
+        height: 15rem
+    }
+    100% {
+        height: 6rem;
+    }
+}
+
+@keyframes fade-out-sec {
+    0% {
+        height: 6rem;
+    }
+    100% {
+        height: 15rem
+    }
+}

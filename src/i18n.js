@@ -21,12 +21,12 @@ i18n
                     Headline: "Je suis un étudiant ingénieur spécialisé dans le développement mobile," +
                         " je suis actuellement à la recherche d'un stage de fin d'étude " +
                         "d'une durée de 6 à 7 mois à partir de janvier 2023.",
-                    HireMe: "Engagez-moi",
+                    HireMe: "Contactez-moi",
                     SeeMyPastWork: "See my past work"
                 },
             },
         },
-        lng: 'en',
-        fallbackLng: 'en',
+        lng: 'fr',
+        fallbackLng: 'fr',
         interpolation: {escapeValue: false},
     });

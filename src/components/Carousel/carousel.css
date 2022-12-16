@@ -1,0 +1,94 @@
+.carousel-container {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.carousel-wrapper {
+    display: flex;
+    width: 100%;
+    position: relative;
+}
+
+.carousel-content-wrapper {
+    overflow: hidden;
+    width: 100%;
+    height: 100%;
+}
+
+.carousel-content {
+    display: flex;
+    -ms-overflow-style: none; /* hide scrollbar in IE and Edge */
+    scrollbar-width: none; /* hide scrollbar in Firefox */
+}
+
+.carousel-normal-translation {
+    transition: all 250ms linear;
+}
+
+.carousel-override-translation {
+    transition: all 0ms linear;
+}
+
+/* hide scrollbar in webkit browser */
+.carousel-content::-webkit-scrollbar, .carousel-content::-webkit-scrollbar {
+    display: none;
+}
+
+.carousel-content > * {
+    width: calc(100% / 3);
+    flex-shrink: 0;
+    flex-grow: 1;
+}
+
+.left-arrow, .right-arrow {
+    position: absolute;
+    z-index: 1;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 2.5rem;
+    height: 2.5rem;
+    border-radius: 24px;
+    background-color: white;
+    border: 1px solid #ddd;
+}
+
+.left-arrow {
+    left: 0;
+}
+
+.right-arrow {
+    right: 0;
+}
+
+@media (hover: none) and (pointer: coarse) {
+    .left-arrow, .right-arrow {
+        display: none;
+    }
+}
+
+.big-animated {
+    animation-name: fade-in;
+    opacity: 1;
+    width: 7rem;
+    margin: auto;
+    animation-duration: 250ms;
+}
+
+.small-animated {
+    animation-name: fade-out;
+    opacity: 0.5;
+    width: 5rem;
+    margin: auto;
+    animation-duration: 250ms;
+}
+
+@keyframes fade-in {
+    0%   {opacity: 0.5; width: 5rem}
+    100% {opacity: 1; width: 7rem}
+}
+
+@keyframes fade-out {
+    0%   {opacity: 1; width: 7rem}
+    100% {opacity: 0.5; width: 5rem}
+}

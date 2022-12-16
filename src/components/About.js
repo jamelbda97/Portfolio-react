@@ -1,41 +1,77 @@
 import React from "react";
 import {useTranslation} from 'react-i18next';
+import Row from "react-bootstrap/Row";
+import Col from "react-bootstrap/Col";
+import {Container} from "react-bootstrap";
 
 export default function About() {
     const {t} = useTranslation();
     return (
         <section id="about">
-            <div className="container mx-auto flex px-10 py-20 md:flex-row flex-col items-center">
-                <div
-                    className="lg:flex-grow md:w-1/2 lg:pr-24 md:pr-16 flex flex-col md:items-start md:text-left mb-16 md:mb-0 items-center text-center">
-                    <h1 className="title-font sm:text-4xl text-3xl mb-4 font-medium text-black">
-                        {t('Welcome')} Jamel.<br
-                        className="hidden lg:inline-block"/>{t("")}
-                    </h1>
-                    <p className="mb-8 leading-relaxed">
-                        {t('Headline')}
-                    </p>
-                    <div className="flex justify-center">
-                        <a
-                            href="#contact"
-                            className="inline-flex text-white bg-blue-500 border-0 py-2 px-6 focus:outline-none hover:bg-blue-700 rounded text-lg">
-                            {t('HireMe')}
-                        </a>
-                        <a
-                            href="#projects"
-                            className="ml-4 inline-flex text-gray-500 bg-gray-200 border-0 py-2 px-6 focus:outline-none hover:bg-gray-400 hover:text-white rounded text-lg">
-                            {t('SeeMyPastWork')}
-                        </a>
-                    </div>
-                </div>
-                <div className="lg:max-w-lg lg:w-full md:w-1/2 w-5/6">
-                    <img
-                        className="object-cover object-center rounded"
-                        alt="hero"
-                        src="./coding.svg"
-                    />
-                </div>
-            </div>
+            <Container>
+                <Row className="my-5">
+                    <Col md={{span: 8}}>
+                        <Row className="mb-3">
+                            <h1 className="text-black">
+                                {t('Welcome')} Jamel.<br
+                                className="hidden lg:inline-block"/>{t("")}
+                            </h1>
+                        </Row>
+                        <Row>
+                            <p className="mb-8 leading-relaxed">
+                                {t('Headline')}
+                            </p>
+                        </Row>
+                        <Row className="my-1">
+                            <Col className="flex my-auto" xs={{span: 12}} md={{span: 5}}>
+                                <Col className="text-center">
+                                    <a href="#contact" className="btn btn-primary">
+                                        {t('HireMe')}
+                                    </a>
+                                </Col>
+                                <Col className="text-center">
+                                    <a href="#projects" className="btn" style={{background: "#dddfe8"}}>
+                                        Voir mes realisations
+                                    </a>
+                                </Col>
+                            </Col>
+                            <Col className="my-3" xs={{span: 12}} sm={{span: 12}} md={{span: 6}}>
+                                <Row className="mx-5 mx-md-0">
+                                    <Col>
+                                        <a className="btn mx-0 px-0" href="https://github.com/jamelbd97">
+                                            <img src="./social-media/github.png" alt="Github"/>
+                                        </a>
+                                    </Col>
+                                    <Col>
+                                        <a className="btn mx-0 px-0"
+                                           href="https://www.linkedin.com/in/jamel-bouassida-805b78194">
+                                            <img src="./social-media/linkedin.png" alt="Linkedin"/>
+                                        </a>
+                                    </Col>
+                                    <Col>
+                                        <a className="btn mx-0 px-0"
+                                           href="https://www.facebook.com/profile.php?id=100083120996193">
+                                            <img src="./social-media/facebook.png" alt="Facebook"/>
+                                        </a>
+                                    </Col>
+                                    <Col>
+                                        <a className="btn mx-0 px-0" href="https://twitter.com/jamelbd97">
+                                            <img src="./social-media/twitter.png" alt="Twitter"/>
+                                        </a>
+                                    </Col>
+                                </Row>
+                            </Col>
+                        </Row>
+                    </Col>
+                    <Col md={{span: 4}}>
+                        <img
+                            className="object-cover object-center mx-auto rounded-circle w-64 m-2"
+                            alt="hero"
+                            src="./my-photo.jpg"
+                        />
+                    </Col>
+                </Row>
+            </Container>
         </section>
     );
 }
