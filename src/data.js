@@ -7,7 +7,6 @@ let technologies = [
     {id: 5, name: "Symfony4", imageUrl: "./programs/symfony.png", link: "https://symfony.com/4"},
     {id: 6, name: "MySQL", imageUrl: "./programs/mysql.png", link: "https://www.mysql.com"},
     {id: 7, name: "Unity", imageUrl: "./programs/unity.png", link: "https://unity.com"},
-    {id: 8, name: "SpringBoot", imageUrl: "", link: "#"},
     {
         id: 8,
         name: "Maya",
@@ -16,6 +15,8 @@ let technologies = [
     },
     {id: 9, name: "Blender", imageUrl: "./programs/blender.png", link: "https://www.blender.org"},
     {id: 10, name: "React JS", imageUrl: "./programs/react-js.png", link: "https://reactjs.org"},
+    {id: 11, name: "SpringBoot", imageUrl: "", link: "#"},
+
 ]
 
 const projectsNormalArray = [
@@ -68,7 +69,7 @@ const projectsNormalArray = [
         technologies: [
             technologies[2],
             technologies[6],
-            technologies[8],
+            technologies[11],
         ],
     },
     {
