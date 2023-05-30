@@ -19,8 +19,7 @@ i18n
                 translation: {
                     Welcome: "Bonjour, je suis",
                     Headline: "Je suis un étudiant ingénieur spécialisé dans le développement mobile," +
-                        " je suis actuellement à la recherche d'un stage de fin d'étude " +
-                        "d'une durée de 6 à 7 mois à partir de janvier 2023.",
+                        " je suis fait actuellement mon stage de fin d'etudes dans la startup industry X.0.",
                     HireMe: "Contactez-moi",
                     SeeMyPastWork: "See my past work"
                 },
