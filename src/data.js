@@ -7,6 +7,7 @@ let technologies = [
     {id: 5, name: "Symfony4", imageUrl: "./programs/symfony.png", link: "https://symfony.com/4"},
     {id: 6, name: "MySQL", imageUrl: "./programs/mysql.png", link: "https://www.mysql.com"},
     {id: 7, name: "Unity", imageUrl: "./programs/unity.png", link: "https://unity.com"},
+    {id: 8, name: "SpringBoot", imageUrl: "", link: "#"},
     {
         id: 8,
         name: "Maya",
@@ -58,18 +59,21 @@ const projectsNormalArray = [
         id: 2,
         key: 1,
         title: "CIPA",
-        subtitle: "",
-        description: "",
+        subtitle: "Application industrielle",
+        description: "Coming soon",
         sourceCodeLink: "Le code source de cette application est privé",
-        platforms: "Mobile / Desktop / ",
+        platforms: "Mobile / Tablette / Desktop",
         type: 3,
         logoUrl: "./my-projects/logo/logo6.png",
         technologies: [
+            technologies[2],
+            technologies[6],
+            technologies[8],
         ],
     },
     {
-        id: 2,
-        key: 1,
+        id: 3,
+        key: 2,
         title: "Kitebi",
         subtitle: "Application pour lecture de livres PDF et livres audio",
         description:
@@ -106,8 +110,8 @@ const projectsNormalArray = [
         ],
     },
     {
-        id: 3,
-        key: 2,
+        id: 4,
+        key: 3,
         title: "Khedemti",
         subtitle: "Site web pour recrutement/recherche de travail/missions/evenements",
         description:
@@ -145,8 +149,8 @@ const projectsNormalArray = [
         ],
     },
     {
-        id: 4,
-        key: 3,
+        id: 5,
+        key: 4,
         title: "Chicky",
         subtitle: "Application réseau social avec géolocalisation.",
         description: "Réseau social qui trouve les personnes qui sont dans un même endroit ainsi de créer un" +
@@ -167,8 +171,8 @@ const projectsNormalArray = [
         ],
     },
     {
-        id: 5,
-        key: 4,
+        id: 6,
+        key: 5,
         title: "Rose",
         subtitle: "Application smart home.",
         description: "Rose est une application qui controle les appareils intelligents" +
