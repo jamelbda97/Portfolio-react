@@ -23,13 +23,25 @@ const projectsNormalArray = [
         key: 0,
         title: "Togo",
         subtitle: "Jeu mobile culturel avec géolocalisation",
-        description: "Nous avons essayé de concevoir un jeu vidéo 3d intitulé « Togo » qui se base sur la" +
-            "géolocalisation.\n Le joueur va, en sillonnant le territoire tunisien, collecter les monuments " +
-            "historiques et les mettre dans un inventaire, il pourra ainsi les visiter virtuellement et pour " +
-            "chaque monument gagné le joueur va réaliser des challenges et jouer à des jeux spécifiques. \n" +
-            " C'est une sorte de collector numérique des modèles 3d des monuments historiques mais avec " +
-            "un challenge important pour chaque monument ce qui va booster les joueurs à découvrir d'autres " +
-            "monuments et sites.",
+        description:
+            "Il s'agit d'un réseau social basé sur la localisation qui permet de " +
+            "trouver des personnes se trouvant dans un même endroit." +
+            " Les utilisateurs peuvent créer un profil personnel et publier " +
+            "des vidéos pour partager leur contenu avec la communauté. " +
+            "L'application facilite également les interactions entre les " +
+            "utilisateurs en leur permettant de se contacter les uns les autres." +
+            "\n" +
+            "\n" +
+            "Cette application offre un espace où les utilisateurs peuvent partager" +
+            " leurs vidéos et interagir avec d'autres membres de la communauté. " +
+            "L'accent est mis sur la connectivité entre les personnes se trouvant" +
+            " au même endroit géographique." +
+            "\n" +
+            "\n" +
+            "En résumé, cette application est un réseau social géolocalisé où " +
+            "les utilisateurs peuvent publier des vidéos, interagir avec d'autres " +
+            "utilisateurs et créer des connexions avec des personnes présentes " +
+            "dans leur localité.",
         sourceCodeLink: "Privé",
         platforms: "Mobile",
         type: 2,
@@ -45,17 +57,48 @@ const projectsNormalArray = [
     {
         id: 2,
         key: 1,
+        title: "CIPA",
+        subtitle: "Application pour lecture de livres PDF et livres audio",
+        description: "",
+        sourceCodeLink: "Le code source de cette application est privé",
+        platforms: "Mobile / Desktop",
+        type: 3,
+        logoUrl: "./my-projects/logo/logo6.png",
+        videoUrl: "./my-projects/videos/mobile/kitebi.mp4",
+        otherUrl: "./my-projects/videos/web/kitebi.mp4",
+        technologies: [
+            technologies[2],
+            technologies[3],
+            technologies[4],
+            technologies[10],
+        ],
+    },
+    {
+        id: 2,
+        key: 1,
         title: "Kitebi",
-        subtitle: "Application pour lecture de livres",
-        description: "Cette app permet à ses utilisateurs de lire des livres " +
-            " et d'écouter des livres audio publiés par le Ministère des Affaires Culturelles.\n" +
-            "Dans cette application, vous pouvez lire des livres PDF, les télécharger," +
-            " les ajouter à vos favoris ou les partager, c'est presque la même chose pour les livres audio mp3.\n" +
-            "Vous pouvez partager des publications (texte/audio/image) et lire les publications d'autres personnes.\n" +
-            "Il y a une bibliothèque qui contient tous vos livres/livres audio préférés et ceux que vous avez téléchargés.\n" +
-            "Vous pouvez également rechercher du contenu, trier par catégorie ou trier par âge.\n" +
-            "L'application a un mode sombre et vous pouvez changer la langue en français, anglais et arabe.",
-        sourceCodeLink: "Privé",
+        subtitle: "Application pour lecture de livres PDF et livres audio",
+        description:
+            "Cette application permet aux utilisateurs de lire et d'écouter des" +
+            " livres publiés par le Ministère des Affaires Culturelles." +
+            " Vous pouvez accéder à des livres au format PDF, les télécharger," +
+            " les ajouter à vos favoris et les partager. De même, les livres audio" +
+            " au format MP3 peuvent être écoutés, téléchargés, ajoutés aux favoris" +
+            " et partagés." +
+            "\n\n" +
+            "Vous avez l'acces a une bibliothèque regroupe tous vos livres et " +
+            "livres audio préférés, ainsi que ceux que vous avez téléchargés." +
+            "\n\n" +
+            "Vous avez la possibilité de partager des publications comprenant du texte," +
+            " des fichiers audio et des images, tout en ayant accès aux publications" +
+            " d'autres utilisateurs. " +
+            "\n\n" +
+            "L'application propose également une fonctionnalité de recherche de" +
+            " contenu, permettant de trier les résultats par catégorie ou par âge." +
+            " Vous pouvez profiter d'un mode sombre pour une meilleure expérience " +
+            "visuelle, et choisir entre les langues français, anglais et arabe pour " +
+            "l'interface de l'application.",
+        sourceCodeLink: "Le code source de cette application est privé",
         platforms: "Mobile / Web",
         type: 3,
         logoUrl: "./my-projects/logo/logo1.png",
@@ -72,11 +115,31 @@ const projectsNormalArray = [
         id: 3,
         key: 2,
         title: "Khedemti",
-        subtitle: "C'est un site web pour recrutement/recherche de travail/missions qui offre aussi des evenements",
-        description: "Dans ce site web, vous pouvez vous connecter en tant que candidat/societe.\n" +
-            "Les candidats peuvent consulter les offres et postuler ou ajouter une note.\n" +
-            "Les societes peuvent ajouter des offres de traivail, missions, evenements etformations.",
-        sourceCodeLink: "https://github.com/jamelbd97/PIDEV-Devchasers-WEB",
+        subtitle: "Site web pour recrutement/recherche de travail/missions/evenements",
+        description:
+            "Sur ce site web, les utilisateurs ont la possibilité de se connecter" +
+            " en tant que candidat ou en tant que société." +
+            "\n\n" +
+            "Les candidats peuvent parcourir les offres d'emploi disponibles," +
+            " consulter les détails de chaque offre et postuler directement en ligne." +
+            " De plus, ils ont la possibilité d'ajouter des notes personnelles" +
+            " aux offres qu'ils ont consultées, ce qui peut leur servir " +
+            "de rappel ou de moyen de suivi." +
+            "\n\n" +
+            "Les sociétés, quant à elles, peuvent ajouter des offres d'emploi, " +
+            "des missions, des événements et des formations sur le site. " +
+            "Elles peuvent fournir tous les détails pertinents concernant ces" +
+            " opportunités, tels que la description du poste, les qualifications" +
+            " requises, la localisation, la rémunération, etc. Les sociétés ont " +
+            "ainsi la possibilité de promouvoir leurs opportunités et d'attirer " +
+            "des candidats qualifiés." +
+            "\n\n" +
+            "En résumé, ce site web offre aux candidats la possibilité de" +
+            " consulter et de postuler à des offres d'emploi, ainsi que" +
+            " d'ajouter des notes personnelles. Les sociétés, de leur côté," +
+            " peuvent publier des offres d'emploi, des missions, des événements " +
+            "et des formations pour attirer des candidats potentiels.",
+        sourceCodeLink: "https://github.com/jamelbda97/PIDEV-Devchasers-WEB",
         platforms: "Web",
         type: 2,
         logoUrl: "./my-projects/logo/logo4.png",
@@ -96,8 +159,8 @@ const projectsNormalArray = [
             " profil ou les utilisateurs peuvent publier des des vidéos" +
             " et se contacter." +
             " ou l’application les aides par un ensemble des vues très élevées. \n" +
-            "Source code pour iOS : https://github.com/jamelbd97/Chicky-ios.",
-        sourceCodeLink: "https://github.com/jamelbd97/Chicky-android",
+            "Source code pour iOS : https://github.com/jamelbda97/Chicky-ios.",
+        sourceCodeLink: "https://github.com/jamelbda97/Chicky-android",
         platforms: "iOS (Swift) / Android (Kotlin)",
         type: 1,
         logoUrl: "./my-projects/logo/logo2.png",
@@ -114,8 +177,8 @@ const projectsNormalArray = [
         key: 4,
         title: "Rose",
         subtitle: "Application smart home.",
-        description: "Rose est un appareil intelligent qui sert à contrôler" +
-            " d’autre appareil connecté dans la maison.\n" +
+        description: "Rose est une application qui controle les appareils intelligents" +
+            " connecté dans la maison.\n" +
             "Rose facilite la vie dans la maison, elle permet d’économiser" +
             " de l’Energie, contrôler des appareils simultanément. ",
         sourceCodeLink: "https://github.com/talbi21/rose",

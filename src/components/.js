@@ -38,17 +38,17 @@ export default function About() {
                                     </a>
                                 </Col>
                                 <Col className="p-1">
-                                    <a href="https://www.facebook.com/profile.php?id=100083120996193">
+                                    <a href="https://www.facebook.com/jamelbda97">
                                         <img src="./social-media/facebook.png" alt="Facebook"/>
                                     </a>
                                 </Col>
                                 <Col className="p-1">
-                                    <a href="https://twitter.com/jamelbd97">
+                                    <a href="https://twitter.com/jamelbda97">
                                         <img src="./social-media/twitter.png" alt="Twitter"/>
                                     </a>
                                 </Col>
                                 <Col className="p-1">
-                                    <a href="https://github.com/jamelbd97">
+                                    <a href="https://github.com/jamelbda97">
                                         <img src="./social-media/github.png" alt="Github"/>
                                     </a>
                                 </Col>
@@ -91,7 +91,7 @@ export default function About() {
                             </Col>
                             <Row>
                                 <Col className="p-1">
-                                    <a href="https://github.com/jamelbd97">
+                                    <a href="https://github.com/jamelbda97">
                                         <img src="./social-media/github.png" alt="Github"/>
                                     </a>
                                 </Col>
@@ -101,12 +101,12 @@ export default function About() {
                                     </a>
                                 </Col>
                                 <Col className="p-1">
-                                    <a href="https://www.facebook.com/profile.php?id=100083120996193">
+                                    <a href="https://www.facebook.com/jamelbda97">
                                         <img src="./social-media/facebook.png" alt="Facebook"/>
                                     </a>
                                 </Col>
                                 <Col className="p-1">
-                                    <a href="https://twitter.com/jamelbd97">
+                                    <a href="https://twitter.com/jamelbda97">
                                         <img src="./social-media/twitter.png" alt="Twitter"/>
                                     </a>
                                 </Col>

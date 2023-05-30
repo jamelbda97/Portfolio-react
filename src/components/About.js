@@ -38,7 +38,7 @@ export default function About() {
                             <Col className="my-3" xs={{span: 12}} sm={{span: 12}} md={{span: 6}}>
                                 <Row className="mx-5 mx-md-0">
                                     <Col>
-                                        <a className="btn mx-0 px-0" href="https://github.com/jamelbd97">
+                                        <a className="btn mx-0 px-0" href="https://github.com/jamelbda97">
                                             <img src="./social-media/github.png" alt="Github"/>
                                         </a>
                                     </Col>
@@ -50,12 +50,18 @@ export default function About() {
                                     </Col>
                                     <Col>
                                         <a className="btn mx-0 px-0"
-                                           href="https://www.facebook.com/profile.php?id=100083120996193">
+                                           href="https://www.facebook.com/jamelbda97">
                                             <img src="./social-media/facebook.png" alt="Facebook"/>
                                         </a>
                                     </Col>
                                     <Col>
-                                        <a className="btn mx-0 px-0" href="https://twitter.com/jamelbd97">
+                                        <a className="btn mx-0 px-0"
+                                           href="https://www.instagram.com/jamel.bouassida">
+                                            <img src="./social-media/instagram.png" alt="Instagram"/>
+                                        </a>
+                                    </Col>
+                                    <Col>
+                                        <a className="btn mx-0 px-0" href="https://twitter.com/jamelbda97">
                                             <img src="./social-media/twitter.png" alt="Twitter"/>
                                         </a>
                                     </Col>
