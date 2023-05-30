@@ -18,8 +18,11 @@ i18n
             fr: {
                 translation: {
                     Welcome: "Bonjour, je suis",
-                    Headline: "Je suis un étudiant ingénieur spécialisé dans le développement mobile," +
-                        " je fait actuellement mon stage de fin d'etudes dans la startup industry X.0.",
+                    Headline: "Je suis un étudiant en ingénierie spécialisé " +
+                    "dans le développement mobile, effectuant actuellement mon " +
+                    "stage de fin d'études chez la startup Industry X.0.\n" +
+                    "Je suis passionné de l'amélioration continue et prêt à relever " +
+                    "les défis technologiques.",
                     HireMe: "Contactez-moi",
                     SeeMyPastWork: "See my past work"
                 },
